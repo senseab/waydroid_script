@@ -109,3 +109,4 @@ venv.bak/
 result*
 
 test.py
+.direnv

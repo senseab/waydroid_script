@@ -1,5 +1,8 @@
-with (import <nixpkgs> { });
-
+{
+  stdenv,
+  python3,
+  ...
+}:
 stdenv.mkDerivation {
   name = "waydroid_script";
 
